@@ -20,10 +20,11 @@ class NewAppDialog(val activity: Activity, val packageName: String, val title: S
             text_view.movementMethod = LinkMovementMethod.getInstance()
         }
 
+        /*
         AlertDialog.Builder(activity)
                 .setPositiveButton(R.string.ok, null)
                 .create().apply {
                     activity.setupDialogStuff(view, this)
-                }
+                }*/
     }
 }

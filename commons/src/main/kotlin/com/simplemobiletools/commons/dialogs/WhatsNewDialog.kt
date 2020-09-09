@@ -13,11 +13,12 @@ class WhatsNewDialog(val activity: Activity, val releases: List<Release>) {
         val view = LayoutInflater.from(activity).inflate(R.layout.dialog_whats_new, null)
         view.whats_new_content.text = getNewReleases()
 
+        /*
         AlertDialog.Builder(activity)
                 .setPositiveButton(R.string.ok, null)
                 .create().apply {
                     activity.setupDialogStuff(view, this, R.string.whats_new)
-                }
+                }*/
     }
 
     private fun getNewReleases(): String {

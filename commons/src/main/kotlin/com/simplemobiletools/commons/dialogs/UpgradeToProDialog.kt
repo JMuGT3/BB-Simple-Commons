@@ -15,6 +15,7 @@ class UpgradeToProDialog(val activity: Activity) {
             upgrade_to_pro.text = activity.getString(R.string.upgrade_to_pro_long)
         }
 
+        /*
         AlertDialog.Builder(activity)
                 .setPositiveButton(R.string.upgrade) { dialog, which -> upgradeApp() }
                 .setNeutralButton(R.string.more_info, null)     // do not dismiss the dialog on pressing More Info
@@ -24,7 +25,7 @@ class UpgradeToProDialog(val activity: Activity) {
                     getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener {
                         moreInfo()
                     }
-                }
+                }*/
     }
 
     private fun upgradeApp() {

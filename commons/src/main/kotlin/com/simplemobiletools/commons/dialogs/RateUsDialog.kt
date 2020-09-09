@@ -9,9 +9,10 @@ import com.simplemobiletools.commons.extensions.launchViewIntent
 class RateUsDialog(val activity: Activity) {
 
     init {
+        /*
         ConfirmationDialog(activity, "", R.string.rate_us_prompt, R.string.rate, R.string.cancel) {
             launchGooglePlay()
-        }
+        }*/
     }
 
     private fun launchGooglePlay() {
